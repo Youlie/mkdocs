@@ -5,18 +5,18 @@ site_author: JL
 
 navbar:
   - wesh
-# nav:
-#   - Home: 'C:\laragon\www\projetmkdocs\docs\index.md'
-#   - 'crediterMonCompte.md'
-#   - InfosVendeurs.md
-#   - 'Particuliers.md'
-#   - Catégorie:
-#     - sous catégorie:
-#       - sous sous catégorie:
-#         - requests\making-request.md
-#   - Making requests:
-#     - making requests over IP6:
-#       - requests\making-request.md
+nav:
+  - Home: 'C:\laragon\www\projetmkdocs\docs\index.md'
+  - 'crediterMonCompte.md'
+  - InfosVendeurs.md
+  - 'Particuliers.md'
+  - Catégorie:
+    - sous catégorie:
+      - sous sous catégorie:
+        - requests\making-request.md
+  - Making requests:
+    - making requests over IP6:
+      - requests\making-request.md
 
 # Copyright
 copyright: Copyright &copy; 2016 - 2020 Consortium Immobilier
