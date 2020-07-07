@@ -1,0 +1,92 @@
+# Project information
+site_name: DOCUMENTATION LOGICIELLE
+site_description: Documentation du logiciel Consortium Immobilier
+site_author: JL
+
+navbar:
+  - wesh
+# nav:
+#   - Home: 'C:\laragon\www\projetmkdocs\docs\index.md'
+#   - 'crediterMonCompte.md'
+#   - InfosVendeurs.md
+#   - 'Particuliers.md'
+#   - Catégorie:
+#     - sous catégorie:
+#       - sous sous catégorie:
+#         - requests\making-request.md
+#   - Making requests:
+#     - making requests over IP6:
+#       - requests\making-request.md
+
+# Copyright
+copyright: Copyright &copy; 2016 - 2020 Consortium Immobilier
+extra_css:
+  - stylesheets/extra.css
+extra_javascript:
+  - javascripts/extra.js
+# Configuration
+theme:
+  name: null
+  custom_dir: mkdocs-material/material
+  features:
+    - tabs
+    - instant
+  # custom_dir: overrides
+
+  language: fr
+  # The instant loading feature will intercept clicks on all internal links and dispatch them directly via XHR without a full page reload. 
+  features:
+    - instant
+  palette:
+  # scheme : slate mode sombre, l'enlever si on souhaite un fond blanc.
+  # avec preference on donne le choix à l'utilisateur de mettre en mode dark ou light
+    scheme: preference
+    primary: indigo
+
+# deep purple
+# indigo
+# blue
+# light blue
+# cyan
+# green
+# light green
+# blue grey
+ 
+  # accent c'est la couleur du hover des liens 
+    accent: orange
+  font:
+  # https://fonts.google.com/
+    text: Raleway
+    code: Multiple Designers
+  # le logo doit faire 96*96
+  logo: /images/logo.svg
+  icon:
+    logo: material/library
+    repo: fontawesome/brands/git-alt
+#ajout des 
+extra:
+  #A Web App Manifest is a simple JSON file that tells the browser about your web application and how it should behave when installed on the user's mobile device or desktop
+  # manifest: manifest.webmanifest
+  # pour une section commentaire
+  # disqus: your-shortname
+  social:
+    - icon: fontawesome/brands/facebook
+      link: https://github.com/squidfunk
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/squidfunk
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/squidfunk
+
+
+# pages: 
+#   - Particuliers : /docs/Particuliers.md
+#   - Infos vendeurs : /docs/InfosVendeurs.md
+
+markdown_extensions:
+#admonition permet l'ajout de contenu sous forme de blocs: de note, résumés , conseils
+  
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true

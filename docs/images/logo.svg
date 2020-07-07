@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="96" height="96" viewBox="0 0 96 96">
+  <defs>
+    <clipPath id="clip-custom_1">
+      <rect width="96" height="96"/>
+    </clipPath>
+  </defs>
+  <g id="custom_1" data-name="custom – 1" clip-path="url(#clip-custom_1)">
+    <rect width="96" height="96" fill="rgba(255,255,255,0)"/>
+    <g id="Groupe_1" data-name="Groupe 1">
+      <circle id="Ellipse_1" data-name="Ellipse 1" cx="48" cy="48" r="48" fill="#145fac"/>
+      <path id="Tracé_1" data-name="Tracé 1" d="M67.712,95.029A19.35,19.35,0,0,1,54.7,61.349l.966-.928L66.651,50.347a7.011,7.011,0,0,1,10.313,9.385l-.145.183L65.312,71.984l-.543.575a4.786,4.786,0,0,0,2.646,8.185l.682.139,3.025.619a6.887,6.887,0,0,1,.657,12.909A9.313,9.313,0,0,1,67.712,95.029Zm29.84,6.019-.973.922L85.6,112.042a7.01,7.01,0,0,1-10.313-9.378l.145-.189L86.942,90.406l.543-.575a4.791,4.791,0,0,0-2.652-8.185l-.676-.139-3.025-.619a6.889,6.889,0,0,1-.663-12.909,9.321,9.321,0,0,1,4.067-.619,19.358,19.358,0,0,1,13.016,33.686Z" transform="translate(-28.424 -33.668)" fill="#fff" stroke="rgba(110,52,52,0)" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

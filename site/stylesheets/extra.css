@@ -1,0 +1,22 @@
+body {
+    /* background :red!important; */
+}
+footer {
+    color: red;
+}
+
+.md-grid {
+    max-width: 100%!important; 
+    margin-right: 10px!important; 
+    margin-left: 10px!important; 
+}
+
+/* zoom pour photo >> */
+    .zoom img {
+        width:55%!important;
+        height:55%!important;
+    }
+    .zoom img:hover {
+        width:100%!important;
+        height:100%!important;
+    }
